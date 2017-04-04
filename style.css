@@ -1,20 +1,30 @@
-
-header{
+header
+{
     height: 100px;
     width: 100%;
     background-color: black;
 }
 
-article{
+article
+{
     height: 100px;
     width: 97%;
     background-color: red;
     border: 20px solid green;
-
 }
 
 
 
-div{
+div
+{
+    background-color: grey;
+    height: 400px;
+    width: 100%;
+}
 
+footer
+{
+    height: 130px;
+    width: 100%;
+    background-color: #333333;
 }
