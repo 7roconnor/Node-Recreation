@@ -5,18 +5,15 @@
 
   let isWhite = false;
 
-  article.addEventListener('click', function(){
-    if(isWhite == true){
-      article.style.border = '20px solid green';
-      isWhite = false;
-    }
-    else {
-      article.style.border = '20px solid white';
-      isWhite = true;
-    }
+  article.addEventListener('mouseover', function()
+  {
+      article.style.border = '20px solid green';    
   });
 
-
+  article.addEventListener('mouseout', function()
+  {
+    article.style.border = '20px solid white'
+  })
 
 
 })();
