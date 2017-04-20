@@ -7,12 +7,12 @@
 
   article.addEventListener('mouseover', function()
   {
-      article.style.border = '20px solid green';    
+      article.style.border = '20px solid green';
   });
 
   article.addEventListener('mouseout', function()
   {
-    article.style.border = '20px solid white'
+    article.style.border = '20px solid white';
   })
 
 
